@@ -1,0 +1,9 @@
+
+
+#when it loses wifi###
+#https://docs.particle.io/reference/developer-tools/cli/#particle-serial-wifi
+particle serial wifi
+scan -> yes
+network -> cmu-device
+unsecured
+AES-TKIP
